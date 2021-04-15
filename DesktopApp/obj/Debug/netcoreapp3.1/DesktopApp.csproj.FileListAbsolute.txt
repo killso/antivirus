@@ -1,0 +1,15 @@
+C:\antivirus\DesktopApp\bin\Debug\netcoreapp3.1\DesktopApp.exe
+C:\antivirus\DesktopApp\bin\Debug\netcoreapp3.1\DesktopApp.deps.json
+C:\antivirus\DesktopApp\bin\Debug\netcoreapp3.1\DesktopApp.runtimeconfig.json
+C:\antivirus\DesktopApp\bin\Debug\netcoreapp3.1\DesktopApp.runtimeconfig.dev.json
+C:\antivirus\DesktopApp\bin\Debug\netcoreapp3.1\DesktopApp.dll
+C:\antivirus\DesktopApp\bin\Debug\netcoreapp3.1\DesktopApp.pdb
+C:\antivirus\DesktopApp\obj\Debug\netcoreapp3.1\DesktopApp.Form.resources
+C:\antivirus\DesktopApp\obj\Debug\netcoreapp3.1\DesktopApp.csproj.GenerateResource.cache
+C:\antivirus\DesktopApp\obj\Debug\netcoreapp3.1\DesktopApp.AssemblyInfoInputs.cache
+C:\antivirus\DesktopApp\obj\Debug\netcoreapp3.1\DesktopApp.AssemblyInfo.cs
+C:\antivirus\DesktopApp\obj\Debug\netcoreapp3.1\DesktopApp.csproj.CoreCompileInputs.cache
+C:\antivirus\DesktopApp\obj\Debug\netcoreapp3.1\DesktopApp.dll
+C:\antivirus\DesktopApp\obj\Debug\netcoreapp3.1\DesktopApp.pdb
+C:\antivirus\DesktopApp\obj\Debug\netcoreapp3.1\DesktopApp.genruntimeconfig.cache
+C:\antivirus\DesktopApp\obj\Debug\netcoreapp3.1\DesktopApp.csprojAssemblyReference.cache
