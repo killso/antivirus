@@ -30,7 +30,7 @@ public class SheduledInspector
         foreach (Inspection inspection in inspections)
         {
             DateTime now = DateTime.Now;
-            bool isShouldInspect = Inspection.getTimeStringFormat(now).Equals(Inspection.getTimeStringFormat(plan.time));
+            bool isShouldInspect = Inspection.getTimeStringFormat(now).Equals(Inspection.getTimeStringFormat(inspection.time));
             if (isShouldInspect)
             {
                 Thread inspectThread = new Thread(new ThreadStart(

@@ -1,11 +1,29 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "WcfServiceLibrary/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/WcfServiceLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WcfServiceLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "WcfServiceLibrary/1.0.0": {
+      "type": "project",
+      "path": "../WcfServiceLibrary/WcfServiceLibrary.csproj",
+      "msbuildProject": "../WcfServiceLibrary/WcfServiceLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "WcfServiceLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Даша Щербакова\\.nuget\\packages\\": {}
@@ -33,7 +51,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\antivirus\\WcfServiceLibrary\\WcfServiceLibrary.csproj": {
+              "projectPath": "C:\\antivirus\\WcfServiceLibrary\\WcfServiceLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

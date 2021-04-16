@@ -27,7 +27,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\antivirus\\WcfServiceLibrary\\WcfServiceLibrary.csproj": {
+                "projectPath": "C:\\antivirus\\WcfServiceLibrary\\WcfServiceLibrary.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -59,6 +63,16 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\antivirus\\WcfServiceLibrary\\WcfServiceLibrary.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\antivirus\\WcfServiceLibrary\\WcfServiceLibrary.csproj",
+        "projectName": "WcfServiceLibrary",
+        "projectPath": "C:\\antivirus\\WcfServiceLibrary\\WcfServiceLibrary.csproj"
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }
