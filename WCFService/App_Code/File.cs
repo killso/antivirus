@@ -19,16 +19,21 @@ public class File
     public int id;
     public string path;
     public FileStates state;
+    public bool isVirus;
+    public bool isChecked;
 
 
     public File(string path)
     {
+        this.path = path;
         this.state = FileStates.Allow;
+        this.isVirus = false;
+        this.isChecked = false;
     }
 
     public bool handleState()
     {
-        switch(this.state)
+        switch (this.state)
         {
             case FileStates.ToQuarantine:
                 return move_to_quarantine(this.path);
@@ -41,7 +46,7 @@ public class File
         }
     }
 
-    static public bool move_to_quarantine(string pathname = "") 
+    static public bool move_to_quarantine(string pathname = "")
     {
         try
         {
@@ -59,18 +64,18 @@ public class File
         }
         catch
         {
+            byte[] bytes = System.IO.File.ReadAllBytes(pathname);
+            byte[] changedBytes = new byte[bytes.Length - 1];
+            bytes.Skip(1).ToArray().CopyTo(changedBytes, 0);
+            System.IO.File.WriteAllBytes(pathname, changedBytes);
             return false;
         }
     }
 
-    static public bool remove_to_quarantine(string pathname = "") 
+    static public bool remove_to_quarantine(string pathname = "")
     {
         try
         {
-            byte[] bytes = System.IO.File.ReadAllBytes(pathname);
-            byte[] newBytes = new byte[bytes.Length - 1];
-            bytes.Skip(1).ToArray().CopyTo(newBytes, 0);
-            System.IO.File.WriteAllBytes(pathname, newBytes);
             return true;
         }
         catch
@@ -79,13 +84,14 @@ public class File
         }
     }
 
-    static public bool delete(string pathname = "") 
-    { 
+    static public bool delete(string pathname = "")
+    {
         try
         {
             System.IO.File.Delete(pathname);
             return true;
-        } catch 
+        }
+        catch
         {
             return false;
         }

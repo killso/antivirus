@@ -6,10 +6,10 @@ using System.Web;
 /// <summary>
 /// Сводное описание для DatabaseConnect
 /// </summary>
-public class DatabaseConnect
+public class DatabaseConnector
 {
     private string path = "";
-    public DatabaseConnect()
+    public DatabaseConnector()
     {
         
     }
