@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using WCFService;
 using System.ServiceProcess;
-using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
+using System.IO;
 
 namespace WindowsService
 {
@@ -17,7 +15,7 @@ namespace WindowsService
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {
-                new Service1()
+                new Service()
             };
             ServiceBase.Run(ServicesToRun);
         }

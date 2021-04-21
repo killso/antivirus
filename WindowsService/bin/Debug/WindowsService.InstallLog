@@ -1,0 +1,52 @@
+﻿Выполняется установка сборки 'G:\VirtualMachines\Windows10VMWare\Общее\antivirus\WindowsService\bin\Debug\WindowsService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = G:\VirtualMachines\Windows10VMWare\Общее\antivirus\WindowsService\bin\Debug\WindowsService.InstallLog
+   assemblypath = G:\VirtualMachines\Windows10VMWare\Общее\antivirus\WindowsService\bin\Debug\WindowsService.exe
+Устанавливается служба ServiceSherbakova...
+Создается исходный EventLog ServiceSherbakova в журнале Application...
+Выполняется откат для сборки 'G:\VirtualMachines\Windows10VMWare\Общее\antivirus\WindowsService\bin\Debug\WindowsService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = G:\VirtualMachines\Windows10VMWare\Общее\antivirus\WindowsService\bin\Debug\WindowsService.InstallLog
+   assemblypath = G:\VirtualMachines\Windows10VMWare\Общее\antivirus\WindowsService\bin\Debug\WindowsService.exe
+Восстанавливается исходное состояние журнала событий для источника ServiceSherbakova.
+Выполняется установка сборки 'C:\w\antivirus\WindowsService\bin\Debug\WindowsService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = C:\w\antivirus\WindowsService\bin\Debug\WindowsService.InstallLog
+   assemblypath = C:\w\antivirus\WindowsService\bin\Debug\WindowsService.exe
+Устанавливается служба ServiceSherbakova...
+Служба ServiceSherbakova успешно установлена.
+Создается исходный EventLog ServiceSherbakova в журнале Application...
+Выполняется фиксация сборки 'C:\w\antivirus\WindowsService\bin\Debug\WindowsService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = C:\w\antivirus\WindowsService\bin\Debug\WindowsService.InstallLog
+   assemblypath = C:\w\antivirus\WindowsService\bin\Debug\WindowsService.exe
+Выполняется установка сборки 'C:\w\antivirus\WindowsService\bin\Debug\WindowsService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = C:\w\antivirus\WindowsService\bin\Debug\WindowsService.InstallLog
+   assemblypath = C:\w\antivirus\WindowsService\bin\Debug\WindowsService.exe
+Устанавливается служба ServiceSherbakova...
+Служба ServiceSherbakova успешно установлена.
+Создается исходный EventLog ServiceSherbakova в журнале Application...
+Выполняется фиксация сборки 'C:\w\antivirus\WindowsService\bin\Debug\WindowsService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = C:\w\antivirus\WindowsService\bin\Debug\WindowsService.InstallLog
+   assemblypath = C:\w\antivirus\WindowsService\bin\Debug\WindowsService.exe
+Выполняется установка сборки 'C:\w\antivirus\WindowsService\bin\Debug\WindowsService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = C:\w\antivirus\WindowsService\bin\Debug\WindowsService.InstallLog
+   assemblypath = C:\w\antivirus\WindowsService\bin\Debug\WindowsService.exe
+Устанавливается служба ServiceSherbakova...
+Служба ServiceSherbakova успешно установлена.
+Создается исходный EventLog ServiceSherbakova в журнале Application...
+Выполняется фиксация сборки 'C:\w\antivirus\WindowsService\bin\Debug\WindowsService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = C:\w\antivirus\WindowsService\bin\Debug\WindowsService.InstallLog
+   assemblypath = C:\w\antivirus\WindowsService\bin\Debug\WindowsService.exe

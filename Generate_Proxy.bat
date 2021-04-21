@@ -1,2 +1,2 @@
-"C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\SvcUtil" http://localhost:9001/ServiceSherbakova  /out:"C:\ServiceSherbakova.cs"  /config:"C:\ServiceSherbakova\App.config"
+"C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\SvcUtil" http://localhost:9001/ServiceSherbakova  /out:"C:\ServiceSherbakova\ServiceSherbakova.cs"  /config:"C:\ServiceSherbakova\App.config"
 pause

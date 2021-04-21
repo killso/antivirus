@@ -1,33 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.31129.286
+VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WCFService", "WCFService\", "{2143E2C3-DC6D-4894-82C2-1B3EF449C1C8}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_49719"
-		Debug.AspNetCompiler.PhysicalPath = "WCFService\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49719\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_49719"
-		Release.AspNetCompiler.PhysicalPath = "WCFService\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49719\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "49719"
-		SlnRelativePath = "WCFService\"
-		DefaultWebSiteLanguage = "Visual C#"
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsService", "WindowsService\WindowsService.csproj", "{CCD70C2B-3681-466E-B293-AADE561E753F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsService", "WindowsService\WindowsService.csproj", "{80795556-89AF-42B7-8BDF-C4C11D81EEF6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "App\App.csproj", "{BE7A65BD-6105-4608-8DE2-6DFF1EF4A6C1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesktopApp", "DesktopApp\DesktopApp.csproj", "{FAE575A4-39E8-4F42-9B8A-50538AC66AEF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFService", "WCFService\WCFService.csproj", "{E7655CBF-32AD-4526-B62A-9CEAECD7E1CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,23 +15,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2143E2C3-DC6D-4894-82C2-1B3EF449C1C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2143E2C3-DC6D-4894-82C2-1B3EF449C1C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2143E2C3-DC6D-4894-82C2-1B3EF449C1C8}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{2143E2C3-DC6D-4894-82C2-1B3EF449C1C8}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{80795556-89AF-42B7-8BDF-C4C11D81EEF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{80795556-89AF-42B7-8BDF-C4C11D81EEF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{80795556-89AF-42B7-8BDF-C4C11D81EEF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{80795556-89AF-42B7-8BDF-C4C11D81EEF6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FAE575A4-39E8-4F42-9B8A-50538AC66AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FAE575A4-39E8-4F42-9B8A-50538AC66AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FAE575A4-39E8-4F42-9B8A-50538AC66AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FAE575A4-39E8-4F42-9B8A-50538AC66AEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCD70C2B-3681-466E-B293-AADE561E753F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD70C2B-3681-466E-B293-AADE561E753F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD70C2B-3681-466E-B293-AADE561E753F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD70C2B-3681-466E-B293-AADE561E753F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE7A65BD-6105-4608-8DE2-6DFF1EF4A6C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE7A65BD-6105-4608-8DE2-6DFF1EF4A6C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE7A65BD-6105-4608-8DE2-6DFF1EF4A6C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE7A65BD-6105-4608-8DE2-6DFF1EF4A6C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7655CBF-32AD-4526-B62A-9CEAECD7E1CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7655CBF-32AD-4526-B62A-9CEAECD7E1CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7655CBF-32AD-4526-B62A-9CEAECD7E1CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7655CBF-32AD-4526-B62A-9CEAECD7E1CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {43A2BB2C-5CE4-4A01-88E9-A6878F7F7960}
+		SolutionGuid = {E5A0F634-CD77-4AAB-946C-6C00D061081D}
 	EndGlobalSection
 EndGlobal
